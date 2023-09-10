@@ -1,0 +1,77 @@
+'verifica se menor - Tabela 1
+    If Worksheets("Organização dos valores").Cells(Linha2, 2) = "" And Worksheets("Carlos teste").Cells(Linha, 2) > 0 Then
+            Worksheets("Organização dos valores").Cells(Linha2, 2) = Worksheets("Carlos teste").Cells(Linha, 2)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 2) > 0 And Worksheets("Carlos teste").Cells(Linha, 2) < Worksheets("Organização dos valores").Cells(Linha2, 2) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 2) = Worksheets("Carlos teste").Cells(Linha, 2)
+    End If
+    'verifica se Maior - Tabela 1
+    If Worksheets("Organização dos valores").Cells(Linha2, 3) = "" Or Worksheets("Carlos teste").Cells(Linha, 2) > Worksheets("Organização dos valores").Cells(Linha2, 3) Then
+            Worksheets("Organização dos valores").Cells(Linha2, 3) = Worksheets("Carlos teste").Cells(Linha, 2)
+    End If
+    
+    'verifica se menor - Tabela 2
+    If Worksheets("Organização dos valores").Cells(Linha2, 8) = "" And Worksheets("Carlos teste").Cells(Linha, 3) > 0 Then
+            Worksheets("Organização dos valores").Cells(Linha2, 8) = Worksheets("Carlos teste").Cells(Linha, 3)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 3) > 0 And Worksheets("Carlos teste").Cells(Linha, 3) < Worksheets("Organização dos valores").Cells(Linha2, 8) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 8) = Worksheets("Carlos teste").Cells(Linha, 3)
+    End If
+    'verifica se Maior - Tabela 2
+    If Worksheets("Organização dos valores").Cells(Linha2, 9) = "" Or Worksheets("Carlos teste").Cells(Linha, 3) > Worksheets("Organização dos valores").Cells(Linha2, 9) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 9) = Worksheets("Carlos teste").Cells(Linha, 3)
+    End If
+    
+    'verifica se menor - Tabela 3
+    If Worksheets("Organização dos valores").Cells(Linha2, 14) = "" And Worksheets("Carlos teste").Cells(Linha, 4) > 0 Then
+              Worksheets("Organização dos valores").Cells(Linha2, 14) = Worksheets("Carlos teste").Cells(Linha, 4)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 4) > 0 And Worksheets("Carlos teste").Cells(Linha, 4) < Worksheets("Organização dos valores").Cells(Linha2, 14) Then
+          Worksheets("Organização dos valores").Cells(Linha2, 14) = Worksheets("Carlos teste").Cells(Linha, 4)
+    End If
+    
+    'verifica se Maior - Tabela 3
+    If Worksheets("Organização dos valores").Cells(Linha2, 15) = "" Or Worksheets("Carlos teste").Cells(Linha, 4) > Worksheets("Organização dos valores").Cells(Linha2, 15) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 15) = Worksheets("Carlos teste").Cells(Linha, 4)
+    End If
+    
+    'verifica se menor - Tabela 4
+    If Worksheets("Organização dos valores").Cells(Linha2, 20) = "" And Worksheets("Carlos teste").Cells(Linha, 5) > 0 Then
+        Worksheets("Organização dos valores").Cells(Linha2, 20) = Worksheets("Carlos teste").Cells(Linha, 5)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 5) > 0 And Worksheets("Carlos teste").Cells(Linha, 5) < Worksheets("Organização dos valores").Cells(Linha2, 20) Then
+            Worksheets("Organização dos valores").Cells(Linha2, 20) = Worksheets("Carlos teste").Cells(Linha, 5)
+    End If
+    'verifica se Maior - Tabela 4
+    If Worksheets("Organização dos valores").Cells(Linha2, 21) = "" Or Worksheets("Carlos teste").Cells(Linha, 5) > Worksheets("Organização dos valores").Cells(Linha2, 21) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 21) = Worksheets("Carlos teste").Cells(Linha, 5)
+    End If
+    
+        'verifica se menor - Tabela 5
+    If Worksheets("Organização dos valores").Cells(Linha2, 26) = "" And Worksheets("Carlos teste").Cells(Linha, 6) > 0 Then
+        Worksheets("Organização dos valores").Cells(Linha2, 26) = Worksheets("Carlos teste").Cells(Linha, 6)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 6) > 0 And Worksheets("Carlos teste").Cells(Linha, 6) < Worksheets("Organização dos valores").Cells(Linha2, 26) Then
+            Worksheets("Organização dos valores").Cells(Linha2, 26) = Worksheets("Carlos teste").Cells(Linha, 6)
+    End If
+    'verifica se Maior - Tabela 5
+    If Worksheets("Organização dos valores").Cells(Linha2, 27) = "" Or Worksheets("Carlos teste").Cells(Linha, 6) > Worksheets("Organização dos valores").Cells(Linha2, 27) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 27) = Worksheets("Carlos teste").Cells(Linha, 6)
+    End If
+    
+    'verifica se menor - Tabela 6
+    If Worksheets("Organização dos valores").Cells(Linha2, 32) = "" And Worksheets("Carlos teste").Cells(Linha, 7) > 0 Then
+        Worksheets("Organização dos valores").Cells(Linha2, 32) = Worksheets("Carlos teste").Cells(Linha, 7)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 7) > 0 And Worksheets("Carlos teste").Cells(Linha, 7) < Worksheets("Organização dos valores").Cells(Linha2, 32) Then
+            Worksheets("Organização dos valores").Cells(Linha2, 32) = Worksheets("Carlos teste").Cells(Linha, 7)
+    End If
+    'verifica se Maior - Tabela 6
+    If Worksheets("Organização dos valores").Cells(Linha2, 33) = "" Or Worksheets("Carlos teste").Cells(Linha, 7) > Worksheets("Organização dos valores").Cells(Linha2, 33) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 33) = Worksheets("Carlos teste").Cells(Linha, 7)
+    End If
+    
+        'verifica se menor - Tabela 7
+    If Worksheets("Organização dos valores").Cells(Linha2, 38) = "" And Worksheets("Carlos teste").Cells(Linha, 8) > 0 Then
+        Worksheets("Organização dos valores").Cells(Linha2, 38) = Worksheets("Carlos teste").Cells(Linha, 8)
+    ElseIf Worksheets("Carlos teste").Cells(Linha, 8) > 0 And Worksheets("Carlos teste").Cells(Linha, 8) < Worksheets("Organização dos valores").Cells(Linha2, 38) Then
+            Worksheets("Organização dos valores").Cells(Linha2, 38) = Worksheets("Carlos teste").Cells(Linha, 8)
+    End If
+    'verifica se Maior - Tabela 7
+    If Worksheets("Organização dos valores").Cells(Linha2, 39) = "" Or Worksheets("Carlos teste").Cells(Linha, 2) > Worksheets("Organização dos valores").Cells(Linha2, 39) Then
+        Worksheets("Organização dos valores").Cells(Linha2, 39) = Worksheets("Carlos teste").Cells(Linha, 8)
+    End If
